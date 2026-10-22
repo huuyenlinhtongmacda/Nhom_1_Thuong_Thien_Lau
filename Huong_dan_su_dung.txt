@@ -5,4 +5,4 @@ Thông tin code :
     4 . thư mục 'muc_con' : lưu trữ các mục con của trang web (hiện tại có 1)
 
 Cách 1 : chạy file index.html
-Cách 2 : mở link : 
+Cách 2 : mở link : https://nhom-1-thuong-thien-lau.onrender.com
