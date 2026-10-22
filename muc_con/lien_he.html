@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #24364b;
+        }
+
+        .lien_he {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: white;
+            border: 1px solid #dce6f0;
+            border-radius: 12px;
+            box-sizing: border-box;
+        }
+
+        .tieu_de {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .tieu_de span {
+            color: #c49a50;
+            font-size: 14px;
+        }
+
+        .tieu_de h2 {
+            color: #102c4e;
+        }
+
+        .tieu_de p {
+            color: #718096;
+            font-size: 14px;
+        }
+
+        .form_lien_he {
+            width: 100%;
+            max-width: 550px;
+            margin: 0 auto;
+        }
+
+        .form_nhom {
+            margin-bottom: 20px;
+        }
+
+        .form_nhom label {
+            display: block;
+            margin-bottom: 8px;
+            color: #102c4e;
+            font-weight: bold;
+        }
+
+        .form_nhom input,
+        .form_nhom textarea {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            border: 1px solid #dce6f0;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .form_nhom input:focus,
+        .form_nhom textarea:focus {
+            outline: 1px solid #c49a50;
+            border-color: #c49a50;
+        }
+
+        .form_nhom textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .nut_gui {
+            width: 100%;
+            padding: 13px;
+            background-color: #102c4e;
+            color: white;
+            border: 1px solid #c49a50;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .nut_gui:hover {
+            background-color: #1e527c;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <section class="lien_he" id="lien_he">
+
+        <div class="tieu_de">
+            <span>✦ KẾT NỐI TIÊN DUYÊN ✦</span>
+            <h2>Liên Hệ Thượng Thiên Lâu</h2>
+            <p>Hãy để lại thông tin, chúng tôi sẽ liên hệ với quý khách.</p>
+        </div>
+
+        <form class="form_lien_he" action="#" method="post">
+
+            <div class="form_nhom">
+                <label for="ho_ten">Họ và tên</label>
+                <input
+                    type="text"
+                    id="ho_ten"
+                    name="ho_ten"
+                    placeholder="Nhập họ và tên"
+                    required
+                >
+            </div>
+
+            <div class="form_nhom">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required
+                >
+            </div>
+
+            <div class="form_nhom">
+                <label for="so_dien_thoai">Số điện thoại</label>
+                <input
+                    type="tel"
+                    id="so_dien_thoai"
+                    name="so_dien_thoai"
+                    placeholder="Nhập số điện thoại"
+                    required
+                >
+            </div>
+
+            <div class="form_nhom">
+                <label for="noi_dung">Nội dung</label>
+                <textarea
+                    id="noi_dung"
+                    name="noi_dung"
+                    placeholder="Bạn cần hỗ trợ điều gì?"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="nut_gui">
+                Gửi liên hệ ➤
+            </button>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
+

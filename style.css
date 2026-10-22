@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3f7fc;
+    color: #24364b;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 5%;
+    background-color: #e5f0fc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo h1 {
+    color: #204c7a;
+    font-size: 28px;
+}
+
+.khau_hieu {
+    color: #204c7a;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #204c7a;
+    color: white;
+}
+
+.menu a {
+    padding: 8px 20px;
+}
+
+.menu a:hover {
+    background-color: #376da4;
+}
+
+
+.bo_cuc {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    padding: 25px 3%;
+}
+
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-color: white;
+    border: 1px solid #dce6f0;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.sidebar h2 {
+    padding-bottom: 12px;
+    color: #102c4e;
+    border-bottom: 2px solid #c49a50;
+}
+
+.sidebar img {
+    width: 100px;
+    
+    margin: 15px 0;
+    
+}
+
+.sidebar h3 {
+    margin: 10px 0;
+    color: #102c4e;
+}
+
+.sidebar p {
+    color: #718096;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.sidebar hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #dce6f0;
+}
+
+.nut_lien_he {
+    display: block;
+    margin-top: 20px;
+    padding: 12px;
+
+    color: white;
+    background-color: #102c4e;
+    border: 1px solid #c49a50;
+    border-radius: 6px;
+
+    text-decoration: none;
+}
+
+.nut_lien_he:hover {
+    background-color: #1e527c;
+}
+
+
+.noi_dung {
+    width: 73%;
+    min-width: 0;
+    padding: 25px;
+    border: 1px solid #dce6f0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.gioi_thieu_dau {
+    padding: 25px;
+    text-align: center;
+    background-color: #eaf3fc;
+}
+
+.gioi_thieu_dau h2 {
+    margin-bottom: 10px;
+    color: #204c7a;
+}
+
+.gioi_thieu_dau p {
+    margin-bottom: 20px;
+}
+
+.gioi_thieu_dau img {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.san_pham {
+    padding: 35px 0;
+    scroll-margin-top: 15px;
+}
+
+.tieu_de {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tieu_de h2,
+.gioi_thieu h2,
+.lien_he h2 {
+    margin-bottom: 10px;
+    color: #204c7a;
+}
+
+.danh_sach {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.the_san_pham {
+    padding: 15px;
+    border: 1px solid #dce6f0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.the_san_pham img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 12px;
+    object-fit: contain;
+    background-color: #f0f6fd;
+}
+
+.the_san_pham h3 {
+    margin-bottom: 8px;
+    color: #204c7a;
+}
+
+.the_san_pham p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.gia {
+    color: #a77b2e;
+    font-weight: bold;
+}
+
+.nut_mua {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 5px;
+    background-color: #204c7a;
+    color: white;
+}
+
+.nut_mua:hover {
+    background-color: #376da4;
+}
+
+
+.gioi_thieu {
+    margin: 20px 0;
+    padding: 30px 20px;
+    background-color: #eaf3fc;
+    scroll-margin-top: 15px;
+}
+
+.gioi_thieu p {
+    max-width: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px 5%;
+    background-color: #204c7a;
+    color: white;
+}
+
+.footer h2 {
+    margin-bottom: 8px;
+}
+
+.footer_slogan {
+    font-style: italic;
+    text-align: center;
+}
+
+.ban_quyen {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
